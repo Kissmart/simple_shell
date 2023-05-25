@@ -1,5 +1,6 @@
 #include "shell.h"
 
+
 /**
  * interactive - returns true if shell is interactive mode
  * @info: struct address
@@ -37,6 +38,7 @@ int _isalpha(int c)
 		return (1);
 	else
 		return (0);
+
 }
 
 /**
@@ -72,4 +74,3 @@ int _atoi(char *s)
 
 	return (output);
 }
-
